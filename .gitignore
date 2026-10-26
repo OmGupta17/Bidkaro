@@ -1,0 +1,62 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+.next/
+**/.next/
+dist/
+**/dist/
+build/
+**/build/
+coverage/
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# Private keys
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Backups and local files
+backups/
+*.tgz
+*.zip
+
+# Local database files
+*.sqlite
+*.sqlite3
+*.db
+
+# User uploads and identity documents
+uploads/
+**/uploads/
+private/
+**/private/
+*.sql
+*.dump
+*.backup
+
+# Local configuration
+.vercel/
+**/.vercel/
+.envrc
+
+# Editor and temporary files
+*.before-*
+*.before.*
+*.bak
+*.orig
